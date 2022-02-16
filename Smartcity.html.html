@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,143 +18,176 @@
 </head>
 
 <body>
-    <header>
-        <header id="header">
-            <!--<H1>Serzat</H1> -->
-            <div class="expobar">
-                <a href="https://h22cityexpo.se" target="_blank">
-                    <strong>Ta mig till H22 City Expo webbplats</strong>
-                </a>
-            </div>
-            <div id="action-bar">
-                <ul class="meny-action-slogan">
-                    <li class="slogan">THE <strong>MAKING</strong> OF A SMARTER CITY</li>
-                </ul>
-                <ul class="meny-action-nav">
-                    <li class="kontakt nav-bar-margin-left">
-                        <a href="https://h22.se/kontakt/">Kontakt</a>
-                    </li>
-                    <li class="om-helsingborg nav-bar-margin-left">
-                        <a href="https://h22.se/om-helsingborg/">Om Helsingborg</a>
-                    </li>
-                    <li class="press nav-bar-margin-left">
-                        <a href="https://h22.se/press/">Press</a>
-                    </li>
-                    <li class="nyhetsbrev nav-bar-margin-left">
-                        <a href="https://h22.se/nyhetsbrev/">Nyhetsbrev</a>
-                    </li>
-                    <li class="gdpr nav-bar-margin-left">
-                        <a href="https://h22.se/gdpr/">GDPR</a>
-                    </li>
-                </ul>
-                <ul class="meny-action-social-media">
-                    <li class="facebook social-media-margin-rigt">
-                        <a href="https://www.facebook.com/H22CityExpo" tittle="facebook">
-                            <img src="img/fb.png" alt="">
-                        </a>
-                    </li>
-                    <li class="linkedin social-media-margin-rigt">
-                        <a href="https://se.linkedin.com/showcase/h22cityexpo" tittle="linkedin">
-                            <img src="img/linkedin.png" alt="">
-                        </a>
-                    </li>
-                    <li class="instagram social-media-margin-rigt">
-                        <a href="https://www.instagram.com/h22cityexpo/" tittle="instagram">
-                            <img src="img/instagram.png" alt="">
-                        </a>
-                    </li>
-                    <li class="custom social-media-margin-rigt">
-                        <a href="mailto:h22@helsingborg.se" tittle="mail">
-                            <img src="img/mail.png"
-                                alt="">
-                        </a>
-                    </li>
-                </ul>
+<!--Header Start ----------- Ayat------------------------------------------------>
+<!--TOP ---  PINK --------------->
 
-            </div>
-            <div class="bottom-nav-bar">
-                <div class="bottom-nav-bar-logo">
-                    <img src="./img/H22_Logo_Black_Hbg.png" alt="" height="100px">
+<div style="background: rgb(166,19,128); padding: 15px;">
+    <a id="topg2" href="https://www.h22cityexpo.com/" target="_blank"><strong>Take me to H22 City Expo website</strong></a>
+</div>
+
+<!--TOP NAV --- GRAY------------>
+    
+<div class="flex-container">
+    
+    <div id="smal" class="flex-item">THE<strong>MAKING</strong>OF A SMARTER CITY</div>
+    <div id="div-2-border" class="flex-item">
+        <a href="https://h22.se/en/contact/">CONTACT</a>
+        <a href="https://h22.se/en/about-helsingborg/">ABOUT HELSINGBORG</a>
+        <a href="https://h22.se/en/press/">PRESS</a>
+       <a href="https://h22.se/en/newsletter/">NEWSLETTER</a>
+        <a href="https://h22.se/en/gdpr/">GDPR</a>
+    </div>
+
+    <div  class="flex-item">
+        <a href="https://www.facebook.com/H22CityExpo" target="_blank" style="padding: 3px;"><i class="fab fa-facebook"></i></a>
+        <a href="https://se.linkedin.com/showcase/h22cityexpo" target="_blank" style="padding: 3px;"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/h22cityexpo/" target="_blank" style="padding: 3px;"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank" style="padding: 3px;"><i class="far fa-envelope"></i></a>
+    </div>
+
+</div>
+
+<!--HEADER --- nav dropdown------>
+
+<div class="fix-top">
+    <header id="g2">
+        <img src="img/LogoBlack.png" alt="H22" style="height: 80px; width: auto; margin: 30px 60px; float: left;">
+        <ul id="ul-gr2">
+            <li>
+            <form>
+                <label for="language">
+                <select name="language" id="language">
+                    <option value="english">EN<img src="img/en.png" alt="english" style="height: 12px; width: 18px;"></option>
+                    <option value="svenska">SV<img src="img/sv.png" alt="svenska" style="height: 12px; width: 18px;"></option>
+                </select>
+                </label>
+            </form>
+            </li>
+
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
+            
+            <li class="dropdown">
+            <a href="#" class="dropbtn">H22 SUMMIT <i class="fas fa-caret-down"></i></a>
+                <div class="dropdown-content">    
+                    <a href="https://h22.se/en/summit/">H22 SUMMIT 2020</a>
+                    <a href="https://h22.se/en/summit-2019/">H22 SUMMIT 2019</a>
                 </div>
-                <div class="bottom-nav-bar-menyline">
-                    <ul class="menyline">
-                        <li class="menyline-link">
-                            <a class="bottom-nav-bar-link" href="https://h22.se/kontakt/">OM H22</a>
-                        </li>
-                        <li class="menyline-link">
-                            <a class="bottom-nav-bar-link" href="https://h22.se/projekt/">INNOVATIONER</a>
-                        </li>
-                        <li class="menyline-link">
-                            <a class="bottom-nav-bar-link" href="https://h22.se/invanare/">ENGAGERA DIG</a>
-                        </li>
-                        <li class="menyline-link">
-                            <a class="bottom-nav-bar-link" href="https://h22.se/partners/">PARTNERS</a>
-                        </li>
-                        <li class="menyline-link">
-                            <a class="bottom-nav-bar-link" href="https://www.h22cityexpo.se/">H22 CITY EXPO</a>
-                        </li>
-                        <li class="menyline-link">
-                            <a class="bottom-nav-bar-link" href="https://h22.se/summit/">H22 SUMMIT</a>
-                        </li>
-                        <li class="seach-meny">
-                            <button class="search-icon">
-                                <img src="img/magnify.png" alt="SEARCH" width="20PX">
-                            </button>
-                        </li>
-                        <li class="language-meny">
-                            <select name="language-meny">
-                                <option value="sv"><img src="img/sv.png" width="18" height="12">Sv</option>
-                                <option value="en"><img src="img/en.png" width="18" height="12">En</option>
-                              </select>
-                        </li>
-                    </ul>
+            </li>
 
-                    <div class="language-meny">
-
-                    </div>
+            <li><a href="https://www.h22cityexpo.com/">H22 CITY EXPO </a></li>
+            
+            <li class="dropdown">
+            <a href="#" class="dropbtn">PARTNERS <i class="fas fa-caret-down"></i></a>
+                <div class="dropdown-content">    
+                    <a href="partners.html.html">OUR BPARTNERS</a>
+                    <a href="https://h22.se/en/become-a-partner/">BECOME A PARTNER</a>
                 </div>
-                <div class="bottom-nav-bar-meny">
-                    <div class="menu-button-box" onclick="openNav()">
-                        <span style="font-size: 26px;
-                        cursor: pointer;
-                         margin-left: 10px;
-                        color : #0095eb;
-                        "> &#9776;</span>
-                    </div>
-                    <div id="mySidenav" class="sidenav">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <ul class="meny-action-nav-sidebar">
-                            <li class="bottom-nav-bar-items">
-                                <a class="bottom-nav-bar-link" href="https://h22.se/kontakt/">OM H22</a>
-                                <img src="./img/arrow-down-icon.png" alt="" height="14px">
-                            </li>
-                            <li class="bottom-nav-bar-items">
-                                <a class="bottom-nav-bar-link" href="#">INNOVATIONER</a>
-                                <img src="./img/arrow-down-icon.png" alt="" height="14px">
+            </li>
 
-                            </li>
-                            <li class="bottom-nav-bar-items">
-                                <a href="#" class="bottom-nav-bar-link">ENGAGERA DIG</a>
-                                <img src="./img/arrow-down-icon.png" alt="" height="14px">
-                            </li>
-                            <li class="bottom-nav-bar-items">
-                                <a href="#" class="bottom-nav-bar-link">PARTNERS</a>
-                                <img src="./img/arrow-down-icon.png" alt="" height="14px">
-                            </li>
-                            <li class="bottom-nav-bar-items">
-                                <a href="#" class="bottom-nav-bar-link">H22 CITY EXPO</a>
-                                <img src="./img/arrow-down-icon.png" alt="" height="14px">
-                            </li>
-                            <li class="bottom-nav-bar-items">
-                                <a href="#" class="bottom-nav-bar-link">H22 SUMMIT</a>
-                                <img src="./img/arrow-down-icon.png" alt="" height="14px">
-                            </li>
-                        </ul>
-                    </div>
+            <li class="dropdown">
+            <a href="#" class="dropbtn">GET INVOLVED <i class="fas fa-caret-down"></i></a>
+                <div class="dropdown-content"> 
+                    <table id="dropdown-content-list">  
+                    <tr>
+                        <th><a href="https://h22.se/en/residents/">RESIDENTS</a> </th>
+                        <th><a href="https://h22.se/en/associations/">ASSOCIATION</a></th>
+                        <th><a href="https://h22.se/en/become-a-partner/">BUSINESSES</a></th>
+                        <th><a href="https://h22.se/en/advisory-groups/">ADVISORY GROUPS</a></th>
+                        <td><a href="https://h22.se/en/together/">TOGETHER/COVID-19</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://h22.se/en/residents/">YOU ARE H22</a></td>
+                        <td><a href="https://h22.se/en/associations/foreningsfonden/">THE ASSOCIATION FUND</a></td>
+                        <td><a href="#">EXHIBITOR</a></td>
+                        <td><a href="https://h22.se/en/advisory-groups/#residentscouncil">RESIDENTS COUNCIL</a></td>
+                        <td><a href="#"></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://h22.se/en/h22-kids/">H22 <i class="fas fa-heart"></i> KIDS</a></td>
+                        <td><a href="#"></a></td>
+                        <td><a href="#"></a></td>
+                        <td><a href="https://h22.se/en/advisory-groups/#elderlypeoplescouncil">SENIORS COUNCIL</a></td>
+                        <td><a href="#"></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">KIDS EDITION</a></td>
+                        <td><a href="#"></a></td>
+                        <td><a href="#"></a></td>
+                        <td><a href="https://h22.se/en/advisory-groups/#youthcouncil">YOUTH COUNCIL</a></td>
+                        <td><a href="#"></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://h22.se/en/residents/do-you-want-to-join-in-and-create-the-helsingborg-of-the-future/">WANT TO JOIN IN?</a></td>
+                        <td><a href="#"></a></td>
+                        <td><a href="#"></a></td>
+                        <td><a href="https://h22.se/en/advisory-groups/#associationcouncil">ASSOCIATION COUNCIL</a></td>
+                        <td><a href="#"></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://h22.se/en/involvement/">BE A TEST POILOT</a></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><a href="https://h22.se/en/projects/show-trees-some-love/">SHOW TREES SOME LOVE!</a></td>
+                    </tr>
+                    </table> 
                 </div>
+            </li>
 
-            </div>
-        </header>
+            <li class="dropdown">
+            <a href="#" class="dropbtn">INNOVATION <i class="fas fa-caret-down"></i></a>
+                <div class="dropdown-content">    
+                    <a href="projekt.html.html">PROJECTS</a>
+                    <a href="testbäddar.html.html">TEST BEDS</a>
+                    <a href="https://h22.se/en/lookout/">H22 LOOKOUTS</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+            <a href="#" class="dropbtn">ABOUT H22 <i class="fas fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <table id="dropdown-content-list">  
+                    <tr>
+                        <th><a href="https://h22.se/en/abouth22/">ABOUT H22</a> </th>
+                        <th><a href="https://h22.se/en/geographical-main-areas/">GEOGRAPHICAL MAIN AREAS</a></th>
+                        <th><a href="https://h22.se/en/smartcity/">SMART CITY</a></th>
+                        <th><a href="https://h22.se/en/filmarchive/">FILM ARCHIVE</a></th>
+                    </tr>
+                    <tr>
+                        <td><a href="https://h22.se/en/three-themes-for-h22/">THREE THEMES FOR H22</a></td>
+                        <td><a href="https://h22.se/en/citycentre/">CITY CENTRE</a></td>
+                        <td><a href="https://h22.se/en/icapital/">ICAPITAL</a></td>
+                        <td><a href="https://h22.se/en/the-voice/">THE VOICE & PODCASTS</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.h22cityexpo.com/">H22 CITY EXPO</a></td>
+                        <td><a href="https://h22.se/en/drottninghog/">DROTTNINGHÖG</a></td>
+                        <td><a href="https://h22.se/en/proud-green-helsingborg/">PROUD GREEN <br>HELSINGBORG</a></td>
+                        <td><a href="#"></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://h22.se/en/advisoryboards/">ADVISORY BOARDS</a></td>
+                        <td><a href="https://h22.se/en/oceanhamnen/">OCEANHAMNEN</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://h22.se/en/advisory-groups/">ADVISORY GROUPS</a></td>
+                        <td><a href="https://h22.se/en/slottshagen/">SOLOTTSHAGEN</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://h22.se/en/initiators/">INITIATORS</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://h22.se/en/faq/">FAQ</a></td>
+                    </tr>
+                    </table>
+                </div>
+            </li>
+        </ul>
+    </header>
+</div>
+
+<!--BIG IMAGE ------------------->
+
         <div class="hbg-img-with-text">
         </div>
             <div class="top-content">
@@ -412,33 +445,40 @@
         </div>
     </div>
 
-        <footer>
-            <div class="ldmain">
-                <div class="ldmain-container">
-                    <div class="ldleft-side">
-                        <div class="ldnews">VILL DU TA DEL AV SENASTE NYTT FRÅN H22?</div>
-                        <div class="ldnews-letter">PRENUMERERA PÅ VÅRT NYHETSBREV!</div>
-                        <input class="text" placeholder="DIN EMAIL" name="Search">
-                        <button class="submit" type="submit">PRENUMERERA</button>
-                        <a id="gdpr" href="https://h22.se/gdpr/">VI FÖLJER<strong>GDPR</strong></a>
-                    </div>
-                    <div class="ldright-side">
-                        <div class="ldform">
-                            <a id="contact" href="https://h22.se/kontakt">KONTAKTA OSS</a>
-                            <p>FÖLJ OSS</p>
-                            <i class="facebook"></i>
-                            <i class="insta"></i>
-                            <i class="linkedin"></i>
-                        </div>
-                    </div>
-                </div>
+    <footer>
+        <div class="lufooter">
+            <div class="lutext">
+                <h4>VILL DU TA DEL AV SENASTE NYTT FRÅN H22?</h4>
+                <h2>PRENUMERERA PÅ VÅRT NYHETSBREV!</h2>
+                <form class="lulist">
+                    <input type="PRENUMERERA" name="search" placeholder=" DIN EMAIL">
+                    <button type="text">PRENUMERERA</button>
+                    <p>VI FÖLJER <strong>GDPR</strong></p>
+                </form>
             </div>
-            <div class="ldfootermain">
-                <div class="ldfootermain-container">
-                    <img src="img/H22_Logo_Hbg_The_making_Neg-1.svg" alt="logga" class="loggapng">
-                    <img src="img/HBG_logo_staende_VIT.svg" alt="logga2" class="logga2png">
-                </div>
+
+            <div class="lutext1">
+                <div class="lasta"><a href="https://h22.se/kontakt">KONTAKTA OSS</a></div>
+                <p>FÖLJ OSS</p>
+                <a href="https://www.facebook.com/H22CityExpo" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/h22cityexpo/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/showcase/h22---a-smarter-city" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+
             </div>
-        </footer>
+        </div>
+        <div class="lulastfooter">
+
+            <div class="leftimagefooter">
+                <img src="img/leftlogo.svg" style="height: 150px;width: 300px;" alt="">
+            </div>
+
+            <div class="rightimagefooter">
+                <img src="img/rightlogo.svg" style="height: 110px;width: 230px;" alt="">
+            </div>
+
+        </div>
+    </footer>
 </body>
+
 </html>
